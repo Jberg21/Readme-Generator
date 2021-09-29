@@ -14,6 +14,10 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+## ${data.license}
+
+The license above is what the developer used for this website. 
+
 `;
 }
 
